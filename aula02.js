@@ -8,3 +8,21 @@ let salarioPessoa = 1500;
 let salarioBonus = 100;
 
 let salarioTotal = salarioBonus + salarioPessoa;
+
+console.log( pessoa );
+console.log( idadePessoa );
+console.log( alturaPessoa );
+console.log( statusPessoa );
+console.log( salarioPessoa );
+console.log( salarioTotal );
+
+//UNINDO TODAS AS INFORMAÇÃOES
+console.log(
+    ' O nome digitado foi: ' +pessoa+
+    ' a idade digitada foi: '+idadePessoa+
+    ' a altura digitada foi: '+alturaPessoa+
+    ' o status da pessia é: '+statusPessoa+
+    ' o salário da pessoa é: '+salarioPessoa+
+    ' e o salário bonus é: '+salarioBonus+
+    ' e o salário total é: '+salarioTotal+ '!!!' 
+)
